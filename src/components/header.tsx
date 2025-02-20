@@ -10,6 +10,7 @@ import {
   NavLink,
   NavLinks,
   WhatsAppButton,
+  CloseMenuButton,
 } from "../styles";
 
 const Header: React.FC = () => {
@@ -24,6 +25,10 @@ const Header: React.FC = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <Navbar>
       <NavbarContainer>
@@ -36,7 +41,9 @@ const Header: React.FC = () => {
           <div />
         </HamburgerMenu>
 
+        {/* Menu aberto com botão de fechar */}
         <NavLinks isOpen={isMenuOpen}>
+          <CloseMenuButton onClick={closeMenu}>X</CloseMenuButton>
           <NavLink to="about" smooth={true} duration={500}>
             {t("about")}
           </NavLink>

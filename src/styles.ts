@@ -99,6 +99,32 @@ export const NavbarContainer = styled.div`
   width: 100%;
 `;
 
+// Botão para fechar o menu
+export const CloseMenuButton = styled.button`
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #4caf50;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @media (min-width: 769px) {
+    display: none; /* Não mostra o botão em telas grandes */
+  }
+`;
+
 export const Logo = styled.img`
   width: 150px;
 `;
@@ -282,31 +308,28 @@ export const LanguageButton = styled.button`
 
 // Botão do WhatsApp
 export const WhatsAppButton = styled.a`
+  display: inline-block;
+  padding: 10px 20px;
   background-color: #25d366;
   color: white;
-  padding: 10px 20px;
+  border-radius: 25px;
   font-size: 16px;
-  font-weight: bold;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
-  margin-left: 20px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 
   &:hover {
     background-color: #128c7e;
-    transform: translateY(-2px);
-  }
-
-  &:focus {
-    outline: none;
   }
 
   @media (max-width: 768px) {
-    margin-top: 10px;
-    margin-left: 0;
+    font-size: 14px; /* Diminui o tamanho da fonte em telas menores */
+    padding: 8px 15px; /* Diminui o padding */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 12px; /* Font menor para telas muito pequenas */
+    padding: 6px 12px; /* Reduz ainda mais o padding */
   }
 `;
 
