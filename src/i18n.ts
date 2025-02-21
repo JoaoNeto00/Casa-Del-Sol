@@ -7,7 +7,7 @@ i18n.use(initReactI18next).init({
       translation: {
         aboutTitle: "Discover Casa del Sol",
         aboutDescription:
-          "Casa del Sol is a cozy seaside retreat where every moment is an opportunity to connect with nature and those you love most. We offer an unforgettable experience of leisure, relaxation, and tranquility, perfect for families seeking to enjoy the best of the coast.",
+          "Casa Del Sol: Follow the sun, find paradise. We offer a rustic and spacious house, ideal for families and groups, located: - 5 minutes from Lagoa do Paraíso - 15 minutes from the center of Jijoca - 30 minutes from Jericoacoara beach Features: - Shaded and ventilated land - Security wall - Capacity for up to 10 people - Mezzanine with double bed + hammock - 2 double bedrooms - Room with 2 single beds + sofa for 2 people Additional services: - Buggy rides, quad biking, Toyota Hilux and UTV - Transfers between Fortaleza and Jijoca - Pets allowed. The team at 'Casa del Sol' wishes you a great holiday and a wonderful stay! Come relax with us!",
         galleryTitle: "Image Gallery",
         galleryDescription:
           "Explore the beauty of Casa del Sol and its surroundings. See the images that capture the essence of this seaside paradise, where the sun shines year-round and every corner invites you to rest.",
@@ -25,7 +25,7 @@ i18n.use(initReactI18next).init({
       translation: {
         aboutTitle: "Conheça a Casa del Sol",
         aboutDescription:
-          "A Casa del Sol é um refúgio acolhedor à beira-mar, onde cada momento é uma oportunidade para se conectar com a natureza e com aqueles que você mais ama. Oferecemos uma experiência inesquecível de lazer, relaxamento e tranquilidade, ideal para famílias que buscam desfrutar do melhor do litoral.",
+          "Casa Del Sol: Siga o sol, encontre o paraíso. Oferecemos uma casa rústica e espaçosa, ideal para famílias e grupos, localizada a: - 5 minutos da Lagoa do Paraíso - 15 minutos do centro de Jijoca - 30 minutos da praia de Jericoacoara Características: - Terreno arborizado e ventilado - Muro de segurança - Capacidade para até 10 pessoas - Mezanino com cama de casal + rede - 2 quartos de casal - Quarto com 2 camas de solteiro + sofá para 2 pessoas Serviços adicionais: - Passeios de buggy, quadriciclo, Toyota Hilux e UTV - Transfer entre Fortaleza e Jijoca - Animais domésticos permitidos. A equipe da 'Casa del Sol' deseja boa férias e uma ótima estadia! Venha relaxar conosco!",
         galleryTitle: "Galeria de Imagens",
         galleryDescription:
           "Explore a beleza da Casa del Sol e seus arredores. Veja as imagens que capturam a essência deste paraíso à beira-mar, onde o sol brilha o ano todo e cada canto é um convite ao descanso.",

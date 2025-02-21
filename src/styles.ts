@@ -342,6 +342,11 @@ export const GalleryContainer = styled.div`
   border-radius: 10px; /* Bordas arredondadas */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor da galeria */
 
+  @media (max-width: 768px) {
+    padding: 0px;
+    width: 100%; /* Estica a galeria para ocupar toda a largura em dispositivos móveis */
+  }
+
   .slick-prev,
   .slick-next {
     background-color: white; /* Fundo branco nas setas */
