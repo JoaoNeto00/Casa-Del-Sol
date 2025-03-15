@@ -328,13 +328,20 @@ export const WhatsAppButton = styled.a`
   }
 
   @media (max-width: 480px) {
-    font-size: 12px; /* Font menor para telas muito pequenas */
+    font-size: 10px; /* Font menor para telas muito pequenas */
     padding: 6px 12px; /* Reduz ainda mais o padding */
   }
+  
+  @media (max-width: 418px) {
+    font-size: 9px; /* Font menor para telas muito pequenas */
+    padding: 6px 12px; /* Reduz ainda mais o padding */
+    margin: 5px
+  }  
 `;
 
 // Estilo da galeria
 // Certifique-se de que o contêiner tenha a largura necessária para o carrossel
+
 export const GalleryContainer = styled.div`
   position: relative;
   background-color: white; /* Fundo branco para o container */
@@ -347,29 +354,22 @@ export const GalleryContainer = styled.div`
     width: 100%; /* Estica a galeria para ocupar toda a largura em dispositivos móveis */
   }
 
-  .slick-prev,
-  .slick-next {
-    background-color: white; /* Fundo branco nas setas */
-    border-radius: 50%;
-    padding: 10px;
-    color: #0077be; /* Cor da seta (ajuste conforme necessário) */
-    border: 2px solid #0077be; /* Borda para destacar as setas */
-    z-index: 1000;
+.slick-prev,
+.slick-next {
+  width: 40px; /* Define o tamanho da seta */
+  height: 30px;
+  z-index: 10;
+}
 
-    &:hover {
-      background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
-    }
-  }
-
-  .slick-prev {
-    left: 10px;
-    z-index: 10;
-  }
-
-  .slick-next {
-    right: 10px;
-    z-index: 10;
-  }
+.slick-prev::before,
+.slick-next::before {
+  font-size: 30px; /* Tamanho da seta */
+  color:  #0077be; /* Cor da seta */
+  border: none; /* Borda preta */
+  border-radius: 50%; /* Deixa a borda arredondada */
+  padding: 2px; /* Ajusta o espaçamento interno */
+  background-color: none; /* Fundo branco */
+}
 `;
 
 // Estilo do rodapé
