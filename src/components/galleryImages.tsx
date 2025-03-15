@@ -28,10 +28,10 @@ const Gallery: React.FC = () => {
               src={`/assets/${file}`}
               alt={file}
               style={{
-                width: "700px",
+                width: "700x",
                 height: "700px",
                 borderRadius: "10px",
-                objectFit: "cover",
+                objectFit: "contain",
               }}
             />
           </div>
