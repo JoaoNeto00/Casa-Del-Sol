@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import { GalleryContainer } from "../styles";
 
 // Gerando os nomes dos arquivos de imagem
-const imageFiles = Array.from({ length: 46 }, (_, i) => `DSC00${440 + i}.JPG`);
+const imageFiles = Array.from({ length: 50 }, (_, i) => `DSC00${440 + i}.JPG`);
 
 const Gallery: React.FC = () => {
   const settings = {
