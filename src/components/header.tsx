@@ -63,6 +63,7 @@ const Header: React.FC = () => {
           >
             <Flag code="BR" style={{ width: "30px", height: "20px" }} />
           </span>
+
           <span
             role="button"
             onClick={() => handleLanguageChange("en")}
@@ -70,6 +71,15 @@ const Header: React.FC = () => {
           >
             <Flag code="US" style={{ width: "30px", height: "20px" }} />
           </span>
+
+          <span
+            role="button"
+            onClick={() => handleLanguageChange("de")}
+            style={{ cursor: "pointer", marginLeft: "10px" }}
+          >
+            <Flag code="DE" style={{ width: "30px", height: "20px" }} />
+          </span>
+
         </LanguageSwitch>
 
         {/* Botão WhatsApp */}

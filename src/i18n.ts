@@ -39,6 +39,24 @@ i18n.use(initReactI18next).init({
         contact: "Contato",
       },
     },
+    de: {
+      translation: {
+        aboutTitle: "Entdecken Sie Casa del Sol",
+        aboutDescription:
+          "Casa Del Sol: Folgen Sie der Sonne und finden Sie das Paradies. Wir bieten ein rustikales und geräumiges Haus, ideal für Familien und Gruppen. Lage: - 5 Minuten von Lagoa do Paraíso - 15 Minuten vom Zentrum von Jijoca - 30 Minuten vom Strand von Jericoacoara entfernt. Ausstattung: - Schattiges und belüftetes Grundstück - Sicherheitsmauer - Platz für bis zu 10 Personen - Zwischengeschoss mit Doppelbett + Hängematte - 2 Doppelzimmer - Zimmer mit 2 Einzelbetten + Sofa für 2 Personen. Zusätzliche Leistungen: - Buggy-Fahrten, Quadfahren, Toyota Hilux und UTV - Transfers zwischen Fortaleza und Jijoca - Haustiere erlaubt. Das Team von 'Casa del Sol' wünscht Ihnen einen schönen Urlaub und einen wundervollen Aufenthalt! Kommen Sie und entspannen Sie sich bei uns!",
+        galleryTitle: "Bildergalerie",
+        galleryDescription:
+          "Entdecken Sie die Schönheit der Casa del Sol und ihrer Umgebung. Sehen Sie sich die Bilder an, die die Essenz dieses Küstenparadieses einfangen, wo die Sonne das ganze Jahr über scheint und jede Ecke zum Ausruhen einlädt.",
+        contactTitle: "Kontaktieren Sie uns",
+        contactDescription:
+          "Wir helfen Ihnen gerne weiter! Wenn Sie Fragen haben oder mehr über Casa del Sol erfahren möchten, kontaktieren Sie uns. Wir beantworten gerne alle Ihre Fragen und sorgen dafür, dass Ihr Aufenthalt bei uns perfekt wird.",
+        contactPhone: "WhatsApp: (88) 98126-3877",
+        contactEmail: "Email: casadelsoljeri@hotmail.com",
+        about: "über",
+        gallery: "Galerie",
+        contact: "Kontakt",
+      },
+    },
   },
   lng: "pt", // Idioma padrão
   fallbackLng: "pt",
